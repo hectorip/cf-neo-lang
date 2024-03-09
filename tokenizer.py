@@ -23,7 +23,6 @@
 # INT
 # TOKEN COMA
 
-
 class Token:
     def __init__(self, kind, value, line, column):
         self.type = kind
@@ -37,9 +36,7 @@ class Token:
 
 def parse(program):
     ## Un programa es un conjunto de líneas
-    tokens = [
-
-    ]
+    tokens = []
     for line in program:
         parse_line(line)
     # Leer el programa linea por linea
@@ -48,7 +45,7 @@ def parse(program):
 
 def parse_line(line):
     column = 0
-    current_value =
+    current_value = 
     for c in line:
         
 
