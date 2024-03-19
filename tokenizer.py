@@ -33,7 +33,6 @@ class Token:
     def __repr__(self):
         pass
 
-
 def parse(program):
     ## Un programa es un conjunto de líneas
     tokens = []
@@ -45,7 +44,8 @@ def parse(program):
 
 def parse_line(line):
     column = 0
-    current_value = 
+    current_value = '' 
     for c in line:
-        
+        if c in 'O'
+
 
